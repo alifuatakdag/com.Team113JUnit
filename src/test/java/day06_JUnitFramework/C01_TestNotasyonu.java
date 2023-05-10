@@ -36,7 +36,7 @@ public class C01_TestNotasyonu {
         // 1- google anasayfaya gidip, url'in google icerdigini test edin
         mahserin4Atlisi();
         driver.get("https://www.google.com");
-        String expectedIcerik="google";
+        String expectedIcerik="googlee";
         String actualUrl= driver.getCurrentUrl();
 
         if (actualUrl.contains(expectedIcerik)){
