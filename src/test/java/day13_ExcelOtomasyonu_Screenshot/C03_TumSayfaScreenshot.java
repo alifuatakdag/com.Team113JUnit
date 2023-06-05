@@ -39,6 +39,6 @@ public class C03_TumSayfaScreenshot extends TestBase {
 
         FileUtils.copyFile(geciciResim,tumSayfaResim);
 
-        ReusableMethods.tumSayfaFotografCek(driver);
+       // ReusableMethods.tumSayfaFotografCek(driver);
     }
 }
